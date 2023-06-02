@@ -23,4 +23,26 @@ Are a way to structure additional information for a given URL. Parameters are ad
 - PUT - method replaces all current representations of the target resource with the request payload (Update existend data on server)
 - DELETE - method deletes the specified resource. (Delete specified data on the server)
 
-# What is an HTTP request?
+
+## What is an HTTP request?
+
+An HTTP request is a request from a client to a server which follows the HTTP protocol, The aim of the request is to access a resource on the server.
+    
+## What is an HTTP response?
+
+An HTTP response is a response from a server to a client which follows the HTTP protocol, he aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out.
+    
+## What is an HTTP header? Give a couple examples of request and response headers you have seen.
+
+    - Headers provide additional information about the request or the response. Here are some examples:
+    - Request headers: Host, User-Agent, Accept, Cookie, Cache-Control
+    - Response headers: Content-Type, Last-Modified, Set-Cookie, Cache-Control\
+    
+## What happens when you type a URL in a browser?
+
+1. Your browser “resolves” the URL name into an IP address using DNS  (Domain Name System)  lockup .
+2. The browser initiates a TCP connection with the server.
+3. The browser sends an HTTP request to the webserver. including headers (info about browser, any previous cookies, and other things)
+4. The server handles the request and sends back a response.  with a status code (200 if it was sucessful)
+5. The browser makes a DOM from that HTML, and finds any other resources needed (images, CSS, JavaScript, etc)
+6. The browser makes separate HTTP requests for those resources and receives response from the server for each
