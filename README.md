@@ -34,9 +34,9 @@ An HTTP response is a response from a server to a client which follows the HTTP 
     
 ## What is an HTTP header? Give a couple examples of request and response headers you have seen.
 
-    - Headers provide additional information about the request or the response. Here are some examples:
-    - Request headers: Host, User-Agent, Accept, Cookie, Cache-Control
-    - Response headers: Content-Type, Last-Modified, Set-Cookie, Cache-Control\
+   - Headers provide additional information about the request or the response. Here are some examples:
+   - Request headers: Host, User-Agent, Accept, Cookie, Cache-Control
+   - Response headers: Content-Type, Last-Modified, Set-Cookie, Cache-Control\
     
 ## What happens when you type a URL in a browser?
 
